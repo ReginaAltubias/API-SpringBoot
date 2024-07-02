@@ -8,8 +8,4 @@ import org.springframework.stereotype.Repository;
 import loja.tenis.models.Productos;
 
 @Repository
-
-public interface ProductosRepository extends  JpaRepository<Productos, UUID> {
-
-    
-} 
+public interface ProductosRepository  extends JpaRepository<Productos, UUID>{}

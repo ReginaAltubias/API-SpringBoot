@@ -6,6 +6,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 import loja.tenis.models.User;
 import loja.tenis.repositories.UserRepository;
 
@@ -33,4 +34,6 @@ public class UserServices {
     public void deleteUser(UUID id) {
         userRepository.deleteById(id);
     }
+
+
 }
